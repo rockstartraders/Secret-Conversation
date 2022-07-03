@@ -1,0 +1,62 @@
+
+
+
+#proj_tabs{
+    margin-top: 4%;
+}
+
+#title_text, #clr_btn, #cvrt_btn_encrypt, #btn_decrypt{
+    letter-spacing: 2px;
+}
+
+
+/* text area override  */
+#txt_area{
+   height: 250px;
+   letter-spacing: 1.5px;
+   font-weight: 600;
+   color: #5a5a5a;;
+
+}
+
+
+::placeholder{
+    color: #5a5a5a;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+#indicator_text{
+    float: left !important;
+    letter-spacing: 2px;        
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+    background: grey;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #5a5a5a;
+}
+
+
+
+/* Only applies if the window with is under 600px */
+@media only screen and (max-width: 600px) {
+    .button {
+        width: 100%;
+    }
+
+    
+.footer{
+    display: none;
+}
+}
+
